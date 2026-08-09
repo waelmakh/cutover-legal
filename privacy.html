@@ -17,7 +17,7 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="meta">Cutover · Last updated 6 August 2026</p>
+<p class="meta">Cutover · Last updated 9 August 2026</p>
 
 <p>Cutover is a video recording and editing app for iPhone, provided by Wael Makhoul.
 This policy explains exactly what leaves your device and what does not.</p>
@@ -39,21 +39,28 @@ or with Google, our authentication provider stores:</p>
   <li>your display name, if your Google account provides one.</li>
 </ul>
 <p>That is used solely to sign you in and keep you signed in. It is not sold, not used
-for advertising, and not used to track you across other apps or websites.</p>
+for advertising, and not used to track you across other apps or websites. Cutover
+contains no analytics SDK and no advertising SDK, and sets no tracking identifier.</p>
 
 <h2>Service providers</h2>
 <p><strong>Google Firebase Authentication</strong> handles sign-in and stores the account
 information listed above. <strong>Google Sign-In</strong> is used if you choose that option.
-See Google's privacy policy for how they process that data.</p>
-<p><strong>Purchases</strong> are processed by Apple. We never see your payment details.
-Cutover uses a subscription-management service to record whether your purchase is
-active; it receives the anonymous purchase identifiers Apple issues, not your name or
-payment information.</p>
+See <a href="https://policies.google.com/privacy">Google's privacy policy</a> for how they
+process that data.</p>
+<p><strong>Purchases</strong> are processed by Apple; we never see your payment details.
+Cutover uses <strong>RevenueCat</strong> to record whether your purchase is active. It
+receives the product purchased, its status, and an anonymous, randomly generated
+identifier — not your name and not your payment information. See
+<a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a> and
+<a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
 
 <h2>Permissions the app asks for</h2>
+<p>The app asks for these only when you use the feature that needs them.</p>
 <ul>
   <li><strong>Camera and microphone</strong> — to record. Used only while you are filming.</li>
-  <li><strong>Photo library</strong> — to save finished exports, and to load a video you want to react to.</li>
+  <li><strong>Photo library (add only)</strong> — to save finished exports to your Photos
+      library. Choosing a video to react to goes through the system picker, which hands the
+      app only the file you picked and gives it no access to the rest of your library.</li>
   <li><strong>Speech recognition</strong> — for on-device live captions.</li>
   <li><strong>Local network</strong> — only if you choose to download an export to a computer over
       Wi-Fi. The file is served directly from your iPhone to your own computer on your own
@@ -63,7 +70,7 @@ payment information.</p>
 <h2>Deleting your account</h2>
 <p>You can delete your account at any time in the app: <strong>Settings → Delete account</strong>.
 This permanently removes the account record described above. Recordings on your device are
-not affected — they were never ours to delete. A purchase belongs to your Apple ID and is
+not affected — they were never ours to delete. A purchase belongs to your Apple Account and is
 not cancelled by deleting your Cutover account.</p>
 
 <h2>Children</h2>
